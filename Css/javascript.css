@@ -1,0 +1,82 @@
+body{
+	background-color: #FFF5EE;
+}
+.container{
+	width: 40%;
+	margin: auto;
+	margin-top: 75px;
+	background-color: #DCDCDC;
+}
+.header{	
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: 140px;
+	
+}
+.holder{
+	margin-top:25px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.holder label:hover{
+	color: orange;
+}
+.holder input:hover{
+	background-color:#DCDCDC;  
+}
+.name{
+	margin-left: 102px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.username{
+	margin-left: 80px;
+	padding:5px;
+	box-sizing: border-box;
+}
+.password{
+	margin-left: 80px;
+	padding:5px;
+	box-sizing: border-box;
+}
+.re-password{
+	margin-left: 30px;
+	padding:5px;
+	box-sizing: border-box;
+}
+.gender{
+	margin-left: 90px;
+	padding:5px;
+	box-sizing: border-box;
+}
+.pskills{
+	margin-left: 10px;
+	padding:5px;
+	box-sizing: border-box;
+}
+.contact{
+	margin-left: 70px;
+	padding:5px;
+	box-sizing: border-box;
+}
+.email{
+	margin-left: 100px;
+	padding:5px;
+	box-sizing: border-box;
+}
+.college{
+	margin-left: 90px;
+	padding:5px;
+	box-sizing: border-box;
+}
+.butn{
+	margin-left: 150px;
+	font-size: 15px;
+	padding: 2px 10px 2px 10px;
+	background-color: green;
+}
+.butn:hover{
+	background-color: #DCDCDC;
+}

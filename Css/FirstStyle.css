@@ -1,0 +1,197 @@
+*{
+	margin: 0px;
+}
+body{
+	background-color: #371909;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	
+}
+.logo {
+	position: absolute;
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	padding-top: 0px;
+}
+.HeaderImage{
+	width: 30px;
+	height: 30px;
+	display: inline;
+	padding-left: 1px;
+}
+#header{
+	background-color: #641516;
+	color: #EAAE80;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	height: 100px;
+}
+#header ul{
+	text-align: inline;
+	margin-left:70%;
+	margin-top: -15px;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+#header a{
+	text-decoration: none;
+	padding: 10px;
+}
+#header a:hover{
+	color: #EAAE80;
+}
+#header h1{	
+	color: #EAAE80;
+	font-size: 20px;
+	margin-left: 70px;
+	padding-top: 20px;
+} 
+#header h1:hover{	
+	color: orange;
+}
+.searchBar{
+	margin-left: 73.5%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  background-color: #641516;
+  color: #EAAE80;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+.sidenav a {
+  padding: 10px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #EAAE80;
+  display: block;
+
+}
+
+.sidenav a:hover {
+  color: orange;
+}
+.about{
+	margin-bottom: 0px;
+}
+.dropdown-content {
+  display: none;
+  background-color: #490D0E;
+  min-width: 160px;
+  box-shadow: 0px;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #EAAE80;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-top: 0;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #878787
+}
+.about:hover .dropdown-content {
+  display: block;
+  
+}
+.rightSidebar{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  top: 100px;
+  left: 1200px;
+  background-color: #641516;
+  color: #EAAE80;
+  overflow-x: hidden;
+  padding-top: 50px;
+
+}
+.rightSidebar p{
+	text-align: center;
+	color: white;
+	font-size: 10px;
+}
+.rightSidebar a{
+  padding: 10px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #EAAE80;
+  display: block;
+}
+
+.container{
+	width: 50%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.box-1{
+	background-color:#333333;
+	color: white;
+	font-family: sans-serif;
+	font-style: italic;
+	border:5px red solid;
+	margin-bottom: 20px;
+}
+.box-1 h1{
+	color: green;
+	font-weight: 500;
+}
+.box-1 p:hover{
+	color: orange;
+}
+.box-2{
+	background-color:#333333;
+	color: white;
+	font-family: sans-serif;
+	font-style: italic;
+	border:5px red solid;
+	margin:20px 0;
+}
+.box-2 h1{
+	color: green;
+	font-weight: 500;
+}
+.box-2 table th, td{
+	border: 2px solid pink;
+}
+.box-2 table th{
+	background-color: orange;
+}
+.box-2 table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.box-2 table tr:hover{
+	background-color: green;
+}
+.footer{
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	left: 0;
+	bottom: 0;
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+.footer p{
+	margin: 8px;
+}
+.banner{
+	width: 150px;
+	height: 200px;
+}
+

@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+}
+body{
+	background-color: #FFF5EE;
+}
+.container{
+	width: 30%;
+	margin:auto;
+	margin-top: 30px;
+	background-color: #DCDCDC;
+	background-position: center;
+}
+.Form-1{
+	border: black;
+	padding-bottom:100px;
+	padding-top: 100px; 
+	
+
+}
+.container p{
+	margin: 6px;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+.signin{
+	color: black;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-top: -90px;
+	margin-left: -30px;
+	position: absolute;
+	
+	
+}
+
+.container form{
+	padding:30px; 
+	margin: 10px;
+	text-align: center;
+}
+.container form input{
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+}
+.container input[type="submit"]{
+	margin:auto;
+	border:1px solid yellow;
+	border-radius: 5px;
+	background-color: red;
+	color: white;
+	width: 100px;
+	cursor: pointer;
+}
+.container input[type="submit"]:hover{
+	background-color: green;
+	color: pink;
+}
+.container a{
+	display: block;
+	text-decoration: none;
+	margin-top: 10px;
+	color: black;
+}
+.container a:hover{
+	color: green;
+}
+.container input[type="register"]{
+	margin-top: 10px;
+	border:1px solid yellow;
+	border-radius: 5px;
+	background-color: green;
+	color: white;
+	width: 90px;
+	cursor: pointer;
+}
+.container input[type="register"]:hover{
+	background-color: red;
+	color: pink;
+}

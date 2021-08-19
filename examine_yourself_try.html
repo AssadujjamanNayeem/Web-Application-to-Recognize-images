@@ -1,0 +1,126 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title>Skin Cancer Detection</title>
+
+	<script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav class="navbar navbar-expand-sm navbar-expand-md mystyle-navcolor navbar-dark fixed-top">
+				<a href="index.html" class="navbar-brand">
+					<img src="logo.jpg" style="width: 60px">
+
+				</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item ">
+						<a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item ">
+						<a class="nav-link" href="aboutus.html">About Us</a></li>
+					
+					<li class="nav-item ">
+						<a class="nav-link" href="methodology.html">Methodology</a></li>
+					<li class="nav-item ">
+						<a class="nav-link" href="examine_yourself_try.html">Examine Yourself</a></li>
+					<li class="nav-item ">
+						<a class="nav-link" href="LogIn.html">Sign In</a></li>
+					<li class="nav-item ">
+						<a class="nav-link" href="Register.html">Sign up</a></li>
+				</ul>
+			</div>
+			</nav>
+		</header>
+		<div class="mystyle-contain">
+			<h3 class="header_one">In this page User will upload their desired image and See the result</h3>
+
+			<div class="row  myOption-holder ">
+				<div class="rounded border myOption-holder-inner col-lg-12 bg-warning">
+						
+						<input type="file" id="file" onchange="showFiles(event)" accept=".png, .jpg, .jpeg">
+						<label class="forLabel" for="file">Upload your image</label>
+				
+					<div>
+						<img id='idImage' class="image_design_try">
+					</div>
+
+				</div>
+				
+
+			</div>
+
+
+			<div class="row  myOption-holder ">
+				<div class="rounded border myOption-holder-inner_1 col-lg-12 bg-success" id="chart_div">
+						<label class="label_view">View The Result</label>
+				</div>
+
+			</div>
+				<script src="index.js"></script>
+			
+		</div>
+
+	</div>
+
+
+
+
+<footer class="w-100 py-4 flex-shrink-0">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h1 text-black">FB.</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Northsouth University</a></p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-black mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-black mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-black mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

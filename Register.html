@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skin Cancer Detection</title>
+
+	<link rel="stylesheet" type="text/css" href="Css/javascript.css">
+	<script type="text/javascript">
+		function FormValidation(){
+			var x =document.getElementById("username").value.trim();
+			var y =document.getElementById("password").value.trim();
+			var z =document.getElementById("re-password").value.trim();
+			if (x=="") {
+				alert("Username must be filled");
+				return false;
+			}
+			if (y=="") {
+				alert("password must be filled");
+				return false;
+			}
+			if(y!=z){
+				alert("Two password does not match")
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="holder">
+			<h2 class="header">Registration Form</h2>
+			<form action="LogIn.html" method="post">
+				<label for="name">Name:</label>
+				<input class="name" type="text" id="name" name="name"><br><br>
+				
+				<label for="username">Username</label>
+				<input class="username" type="text" id="username" name="username"><br><br>
+				
+				<label for="password">Passowrd:</label>
+				<input class="password" type="text" id="password" name="password"><br><br>
+				
+				<label for="re-password">Retype Passowrd:</label>
+				<input class="re-password" type="text" id="re-password" name="re-password"><br><br>
+				
+				<label for="gender">Gender:</label>			
+				<input class="gender" type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label>
+				<input type="radio" id="other" name="gender" value="other">
+				<label for="other">Other</label><br><br>
+
+				<label for="contact">Contact no:</label>
+				<input class="contact" type="text" id="contact" name="contact"><br><br>
+
+				<label for="email">Email:</label>
+				<input class="email" type="text" id="email" name="email"><br><br>
+
+				<label for="college">College:</label>
+				<select class="college" id="college" name="college">
+					<option value="social">Student</option>
+					<option value="ece">Job Holder</option>
+					<option value="bba">Buisness</option>
+					<option value="barc">Enterpreneur</option>
+				</select><br><br>
+
+				<button class="butn" onclick="return FormValidation()" type="submit">Submit</button>
+
+
+			</form>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
